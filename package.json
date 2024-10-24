@@ -1,0 +1,24 @@
+{
+    "name": "thecollege-ms-notification",
+    "version": "1.0.0",
+    "description": "Notification Service",
+    "main": "server.js",
+    "scripts": {
+        "start": "babel-node server.js"
+    },
+    "author": "Nathan Araujo",
+    "license": "CC BY-NC",
+    "dependencies": {
+        "@getbrevo/brevo": "^2.2.0",
+        "@thecollege/vault-secrets": "^1.0.4",
+        "dotenv": "^16.4.5",
+        "kafkajs": "^2.2.4",
+        "mongoose": "^7.5.0"
+    },
+    "devDependencies": {
+        "@babel/cli": "^7.25.7",
+        "@babel/core": "^7.25.8",
+        "@babel/node": "^7.25.7",
+        "@babel/preset-env": "^7.25.8"
+    }
+}
