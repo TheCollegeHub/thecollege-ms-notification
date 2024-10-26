@@ -28,7 +28,7 @@ const createTopicIfNotExists = async (topic) => {
 const runConsumer = async () => {
   await createTopicIfNotExists(topic);
 
-  const consumer = kafka.consumer({ groupId: 'thecollege-invoice-group' });
+  const consumer = kafka.consumer({ groupId: 'thecollege-notification-group' });
   await consumer.connect();
   await consumer.subscribe({ topic, fromBeginning: true });
 
