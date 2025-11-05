@@ -9,8 +9,8 @@
     "author": "Nathan Araujo",
     "license": "CC BY-NC",
     "dependencies": {
-        "@getbrevo/brevo": "^2.2.0",
-        "@thecollege/vault-secrets": "^1.0.4",
+        "@getbrevo/brevo": "^3.0.1",
+        "@thecollege/vault-secrets": "^1.0.7",
         "dotenv": "^16.4.5",
         "kafkajs": "^2.2.4",
         "mongoose": "^7.5.0"
